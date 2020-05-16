@@ -13,5 +13,6 @@ const bubbleSort = (src) => {
   }
 };
 
-bubbleSort(arr);
-console.log(arr);
+module.export = {
+  bubbleSort: bubbleSort
+};
