@@ -10,6 +10,6 @@ const maxArr = (arr) => {
 };
 
 module.exports = {
-  max: max
+  max: maxArr
 };
 
