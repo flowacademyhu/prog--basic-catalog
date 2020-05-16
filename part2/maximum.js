@@ -9,4 +9,7 @@ const maxArr = (arr) => {
     return max;
 };
 
-console.log('Max', maxArr([300, -5, 2, 10, 20, -2]));
+module.exports = {
+  max: max
+};
+
