@@ -1,9 +1,9 @@
 const bubbleSort = require('./bubbleSort');
 const insertionSort = require('./insertionSort');
-const minimumSort = require('./minimumSort');
+const minimumSelectionSort = require('./minimumSelectionSort');
 
 module.exports = {
   bubbleSort: bubbleSort,
   insertionSort: insertionSort,
-  minimumSort: minimumSort
+  minimumSelectionSort: minimumSelectionSort
 };
