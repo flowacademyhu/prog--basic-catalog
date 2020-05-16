@@ -15,3 +15,6 @@ const insertionSort = (src) => {
 insertionSort(arr);
 console.log(arr);
 
+mobule.exports ={
+insertionSort :insertionSort
+}
