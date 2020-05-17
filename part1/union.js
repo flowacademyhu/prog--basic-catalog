@@ -20,6 +20,6 @@ const unionOfArrays = (arr1, arr2) => {
 // const a1 = [2, 4, -6, 6, 7, 110, -1];
 // console.log(unionOfArrays(a0, a1));
 
-modules.export {
+module.exports = {
    unionOfArrays: union
  };
