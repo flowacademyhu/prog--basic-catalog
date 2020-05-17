@@ -4,7 +4,7 @@ const sep = require('./separate');
 const sumArrayFor = require('./summary');
 const selectEvens = require('./selection');
 
-module.exports {
+module.exports = {
   unio: unio,
   copy: copy,
   sep: sep,
