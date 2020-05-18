@@ -6,15 +6,16 @@ const minimumSelectionSort = (src) => {
         minIndex = j;
       }
     }
-    console.log(i, ':', src, 'min', src[minIndex]);
     if (minIndex !== i) {
       const temp = src[i];
       src[i] = src[minIndex];
       src[minIndex] = temp;
     }
   }
+  return src;
 };
 
 module.exports = {
   minimumSelectionSort
 };
+
