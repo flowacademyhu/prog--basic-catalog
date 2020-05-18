@@ -12,5 +12,5 @@ const bubbleSort = (src) => {
 };
 
 module.exports = {
-  bubbleSort: bubbleSort
+  sort: bubbleSort
 };

@@ -16,6 +16,5 @@ const minimumSelectionSort = (src) => {
 };
 
 module.exports = {
-  minimumSelectionSort
+  sort: minimumSelectionSort
 };
-

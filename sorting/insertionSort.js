@@ -1,17 +1,17 @@
-const insertionSort = (inputArr) => {
-  const length = inputArr.length;
+const insertionSort = (src) => {
+  const length = src.length;
   for (let i = 1; i < length; i++) {
-    const key = inputArr[i];
+    const key = src[i];
     let j = i - 1;
-    while (j >= 0 && inputArr[j] > key) {
-      inputArr[j + 1] = inputArr[j];
+    while (j >= 0 && src[j] > key) {
+      src[j + 1] = src[j];
       j = j - 1;
     }
-    inputArr[j + 1] = key;
+    src[j + 1] = key;
   }
-  return inputArr;
+  return src;
 };
 
 module.exports = {
-  insertionSort
+  sort: insertionSort
 };
