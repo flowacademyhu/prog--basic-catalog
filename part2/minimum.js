@@ -7,3 +7,6 @@ const min = (arr) => {
   }
   return min;
 };
+module.exports = {
+	min
+};
