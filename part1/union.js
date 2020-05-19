@@ -21,5 +21,5 @@ const unionOfArrays = (arr1, arr2) => {
 // console.log(unionOfArrays(a0, a1));
 
 module.exports = {
-   unionOfArrays: union
+   union: unionOfArrays:
  };
