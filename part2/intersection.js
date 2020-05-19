@@ -22,10 +22,12 @@ const intersection = (src1, src2) => {
   const out = [];
   let count = 0;
   for (let i = 0; i < src1.length; i++) {
-    for (let j = 0; j < src2.length; j++) { count++; }
-    if (src1[i] === src2[j] && !out.includes(src1[i])) {
-      out.push(src1[i]);
-      break;
+    for (let j = 0; j < src2.length; j++) {
+      count++;
+      if (src1[i] === src2[j] && !out.includes(src1[i])) {
+        out.push(src1[i]);
+        break;
+      }
     }
   }
   return out;
